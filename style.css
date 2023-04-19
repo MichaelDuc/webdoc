@@ -1,0 +1,259 @@
+body {
+    min-height: 100vh;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 248, 243);
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+
+/*Baggrundsbilleder*/
+
+.bimg2 {
+  background-image: url(images/hverdagen.jpg);
+}
+
+.bimg3 {
+  background-image: url(images/menu2.jpg);
+}
+
+.bimg1, .bimg2, .bimg3 {
+    background-size: cover;
+    height: 800px;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bimg1 div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+#knap2, #knap3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 400px;
+}
+
+/*Forside knap*/
+.bimg1 a, .bimg2 a, .bimg3 a{
+    padding: 20px;
+    background-color: rgb(60, 158, 233);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+  }
+
+.bimg1 a:hover, .bimg2 a:hover, .bimg3 a:hover {
+    background-color: rgb(116, 180, 235);
+    color: rgb(0, 0, 0);
+  }
+
+ /*Historien om Lundens Spisehus*/ 
+
+ /*Card 1*/
+.card1 {
+  margin: 50px;
+  margin-bottom: 250px;
+  position: relative;
+  
+}
+
+.card1 img {
+  width: 570px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+
+#text-box {
+  width: 600px;
+  margin-left: 700px;
+  text-align: justify;
+}
+
+.card1 h2 {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.card1 p {
+  line-height: 2;
+  font-size: 20px;
+}
+
+/*Card 2*/
+.card2 {
+  margin: 50px;
+  margin-bottom: 50px;
+}
+
+.card2 img {
+  width: 600px;
+  float: right;
+  margin-right: 30px;
+}
+
+#text-box2 {
+  width: 600px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.card2 h2 {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.card2 p {
+  line-height: 2;
+  font-size: 20px;
+}
+
+/*Card 3 + Card 4*/
+
+.card3 h2, .card4 h2, .card5 h2, .card6 h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.card3, .card4, .card5 {
+  padding: 30px 0;
+  width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.card3 img, .card4 video {
+  padding: 20px 0;
+  width: 600px;
+  display: block;
+  margin: 0px auto;
+}
+
+.card4 h2, .card3 h2 {
+  font-family: 'Lora', serif;
+}
+
+/*Card 5 / Javascript*/
+
+.card5 div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: 50px;
+
+  border-radius: 50px;
+}
+
+.card5 h2 {
+  font-family: 'Lora', serif;
+}
+
+
+.pil {
+  width: 50px;
+  height: 50px;
+}
+
+#ret1, #ret2, #ret3{
+  width: 500px;
+  padding: 50px;
+}
+
+/*Card 6*/
+
+.card6 img {
+  width: 700px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+#an1, #an3 {
+  float: left;
+}
+
+#an2, #an4 {
+  float: right;
+}
+
+.card6 {
+  padding: 50px 50px;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.card6 h2 {
+  font-family: 'Lora', serif;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  background-color: rgb(97, 152, 239);
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer h1 {
+  font-family: 'Lora', serif;
+}
+
+#hjemmesidelink {
+  font-size: 20px;
+  padding: 0%;
+  background-color: transparent;
+  color: black;
+  text-decoration: underline;
+  text-transform: none;
+  border-radius: 0%;
+}
+
+footer table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+}
+
+footer #icons a i{
+  width: 70px;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+footer #icons i:hover {
+  color: white;
+}
+
